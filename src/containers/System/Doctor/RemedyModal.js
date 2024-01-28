@@ -52,10 +52,9 @@ class RemedyModal extends Component {
         }
 
     }
+
     handleSendRemedy = () => {
-
         this.props.sendRemedy(this.state)
-
     }
 
     render() {
